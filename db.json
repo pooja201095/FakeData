@@ -1,0 +1,25 @@
+{
+"products": [
+{
+"id":1,
+"title":"Green T-shirt",
+"size": "M",
+"stock":10,
+"price":"750/-"
+},
+{
+"id":2,
+"title":"Blue T-shirt",
+"size": "L",
+"stock":5,
+"price":"650/-"
+},
+{
+"id":1,
+"title":"Yellow T-shirt",
+"size": "S",
+"stock":20,
+"price":"950/-"
+}
+]
+}
