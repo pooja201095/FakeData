@@ -1,25 +1,354 @@
 {
-"products": [
-{
-"id":1,
-"title":"Green T-shirt",
-"size": "M",
-"stock":10,
-"price":"750/-"
-},
-{
-"id":2,
-"title":"Blue T-shirt",
-"size": "L",
-"stock":5,
-"price":"650/-"
-},
-{
-"id":1,
-"title":"Yellow T-shirt",
-"size": "S",
-"stock":20,
-"price":"950/-"
-}
-]
+    "products": [
+        {
+            "id": 1,
+            "productPrice": 840,
+            "productCategory": "Electronics",
+            "productDescription": "Irure ad ipsum. Eiusmod eu nostrud dolore.",
+            "productName": "Book Trials"
+        },
+        {
+            "id": 2,
+            "productPrice": 725,
+            "productCategory": "Accessories",
+            "productDescription": "Excepteur anim irure dolore magna. Eiusmod id incididunt id.",
+            "productName": "Candlelight Virgil"
+        },
+        {
+            "id": 3,
+            "productPrice": 352,
+            "productCategory": "Books",
+            "productDescription": "Irure amet irure qui eiusmod. Voluptate officia aliqua tempor.",
+            "productName": "Bible Quest"
+        },
+        {
+            "id": 4,
+            "productPrice": 753,
+            "productCategory": "Men",
+            "productDescription": "Mollit consectetur sit incididunt. Ut non tempor mollit anim.",
+            "productName": "Off the Cufflinks"
+        },
+        {
+            "id": 5,
+            "productPrice": 445,
+            "productCategory": "Women",
+            "productDescription": "Sit magna laborum culpa. Adipisicing minim ut ipsum esse.",
+            "productName": "CircusRodeo"
+        },
+        {
+            "id": 6,
+            "productPrice": 440,
+            "productCategory": "Home",
+            "productDescription": "Aute amet et. Et incididunt ipsum deserunt eu.",
+            "productName": "Blog a Thong"
+        },
+        {
+            "id": 7,
+            "productPrice": 559,
+            "productCategory": "Kids",
+            "productDescription": "Nulla dolore ullamco velit. Commodo commodo cillum Lorem enim.",
+            "productName": "OffAndOn"
+        },
+        {
+            "id": 8,
+            "productPrice": 853,
+            "productCategory": "Women",
+            "productDescription": "Aliqua aliqua sint laborum excepteur. Incididunt nostrud elit elit laborum.",
+            "productName": "Candy Candy!"
+        },
+        {
+            "id": 9,
+            "productPrice": 344,
+            "productCategory": "Electronics",
+            "productDescription": "Ea commodo esse do ipsum. Dolor eu commodo.",
+            "productName": "Norse Nurse"
+        },
+        {
+            "id": 10,
+            "productPrice": 1215,
+            "productCategory": "Kids",
+            "productDescription": "Quis nostrud Lorem occaecat. Minim deserunt amet minim velit.",
+            "productName": "nuWay"
+        },
+        {
+            "id": 11,
+            "productPrice": 1299,
+            "productCategory": "Toys",
+            "productDescription": "Magna eu ea incididunt cillum. Et culpa nulla velit do.",
+            "productName": "OdorOn"
+        },
+        {
+            "id": 12,
+            "productPrice": 321,
+            "productCategory": "Electronics",
+            "productDescription": "Quis veniam nulla velit. Nostrud cillum consequat duis.",
+            "productName": "Chapter Elvis"
+        },
+        {
+            "id": 13,
+            "productPrice": 439,
+            "productCategory": "Home",
+            "productDescription": "Labore dolor nostrud et duis. Irure voluptate minim eiusmod sunt.",
+            "productName": "Nuetrinofast"
+        },
+        {
+            "id": 14,
+            "productPrice": 1136,
+            "productCategory": "Kids",
+            "productDescription": "Dolore in elit. Laboris deserunt sint.",
+            "productName": "Apocalypso"
+        },
+        {
+            "id": 15,
+            "productPrice": 1099,
+            "productCategory": "Books",
+            "productDescription": "Culpa velit cillum mollit aliquip. Anim occaecat cupidatat minim.",
+            "productName": "NumberCruncher"
+        },
+        {
+            "id": 16,
+            "productPrice": 717,
+            "productCategory": "Accessories",
+            "productDescription": "Et non eu nulla commodo. Occaecat do ullamco.",
+            "productName": "Nutritious Pirate"
+        },
+        {
+            "id": 17,
+            "productPrice": 763,
+            "productCategory": "Kids",
+            "productDescription": "Proident incididunt deserunt culpa. Velit non aliqua.",
+            "productName": "Omatom"
+        },
+        {
+            "id": 18,
+            "productPrice": 1094,
+            "productCategory": "Electronics",
+            "productDescription": "Ipsum enim culpa. Esse irure nostrud.",
+            "productName": "Cabbage Training"
+        },
+        {
+            "id": 19,
+            "productPrice": 685,
+            "productCategory": "Accessories",
+            "productDescription": "Ex occaecat occaecat. Labore ipsum labore.",
+            "productName": "Apocalypso"
+        },
+        {
+            "id": 20,
+            "productPrice": 1189,
+            "productCategory": "Accessories",
+            "productDescription": "Et ullamco labore consectetur. Est est minim cillum.",
+            "productName": "Nose Curtains"
+        },
+        {
+            "id": 21,
+            "productPrice": 665,
+            "productCategory": "Kids",
+            "productDescription": "In eiusmod aliqua. In non sunt.",
+            "productName": "Octopush"
+        },
+        {
+            "id": 22,
+            "productPrice": 487,
+            "productCategory": "Kids",
+            "productDescription": "Aliquip labore velit cillum enim. Occaecat fugiat laborum quis quis.",
+            "productName": "Citroën to the Boën"
+        },
+        {
+            "id": 23,
+            "productPrice": 827,
+            "productCategory": "Electronics",
+            "productDescription": "Anim id aute ea culpa. Proident elit nisi.",
+            "productName": "Aurora Tori Spelling"
+        },
+        {
+            "id": 24,
+            "productPrice": 1295,
+            "productCategory": "Accessories",
+            "productDescription": "Veniam eu fugiat aute do. Magna minim magna elit consectetur.",
+            "productName": "Coffee Rodeo"
+        },
+        {
+            "id": 25,
+            "productPrice": 1054,
+            "productCategory": "Beauty",
+            "productDescription": "Ex non culpa qui cupidatat. Enim mollit amet do.",
+            "productName": "Omnigoggles"
+        },
+        {
+            "id": 26,
+            "productPrice": 1162,
+            "productCategory": "Grocery",
+            "productDescription": "Tempor minim ex. In enim ex et.",
+            "productName": "Nucrete"
+        },
+        {
+            "id": 27,
+            "productPrice": 429,
+            "productCategory": "Electronics",
+            "productDescription": "Anim cillum incididunt quis non. Laborum ipsum sint dolor.",
+            "productName": "Octorex"
+        },
+        {
+            "id": 28,
+            "productPrice": 1148,
+            "productCategory": "Women",
+            "productDescription": "Tempor commodo pariatur irure laborum. Magna non quis excepteur nostrud.",
+            "productName": "Candlelight Virgil"
+        },
+        {
+            "id": 29,
+            "productPrice": 611,
+            "productCategory": "Accessories",
+            "productDescription": "Ad velit ullamco laboris. Duis fugiat velit.",
+            "productName": "Book Bound"
+        },
+        {
+            "id": 30,
+            "productPrice": 1031,
+            "productCategory": "Books",
+            "productDescription": "Eiusmod ut Lorem ad. Laboris pariatur occaecat elit elit.",
+            "productName": "Coffee Tsunami"
+        },
+        {
+            "id": 31,
+            "productPrice": 1260,
+            "productCategory": "Women",
+            "productDescription": "Deserunt ex reprehenderit cillum. Commodo eiusmod sint.",
+            "productName": "Candlelight Virgil"
+        },
+        {
+            "id": 32,
+            "productPrice": 1015,
+            "productCategory": "Kids",
+            "productDescription": "Aute ipsum sit. Ex id veniam.",
+            "productName": "Book Trials"
+        },
+        {
+            "id": 33,
+            "productPrice": 457,
+            "productCategory": "Toys",
+            "productDescription": "Veniam aliqua aliquip minim sunt. Tempor sunt exercitation non sunt.",
+            "productName": "Campxotica"
+        },
+        {
+            "id": 34,
+            "productPrice": 769,
+            "productCategory": "Toys",
+            "productDescription": "Commodo elit magna nostrud aliquip. Fugiat officia consequat nisi dolor.",
+            "productName": "Old Plywood (Scotch)"
+        },
+        {
+            "id": 35,
+            "productPrice": 1096,
+            "productCategory": "Men",
+            "productDescription": "Aliqua quis voluptate. Ad eiusmod nulla ut.",
+            "productName": "Cabbage Training"
+        },
+        {
+            "id": 36,
+            "productPrice": 659,
+            "productCategory": "Books",
+            "productDescription": "Nisi tempor fugiat non. Duis magna magna fugiat voluptate.",
+            "productName": "Bali Who"
+        },
+        {
+            "id": 37,
+            "productPrice": 832,
+            "productCategory": "Home",
+            "productDescription": "Non veniam cillum anim. Voluptate ex esse.",
+            "productName": "Notecushion"
+        },
+        {
+            "id": 38,
+            "productPrice": 785,
+            "productCategory": "Grocery",
+            "productDescription": "Irure ad Lorem. Veniam veniam officia adipisicing.",
+            "productName": "Octaplex Ports"
+        },
+        {
+            "id": 39,
+            "productPrice": 826,
+            "productCategory": "Kids",
+            "productDescription": "Ea non duis adipisicing. Tempor proident est.",
+            "productName": "OCTAPAN – Open Console Technology Application for Performance Area Network"
+        },
+        {
+            "id": 40,
+            "productPrice": 566,
+            "productCategory": "Women",
+            "productDescription": "Aliqua quis nisi. Est ut est.",
+            "productName": "Objective Banking"
+        },
+        {
+            "id": 41,
+            "productPrice": 771,
+            "productCategory": "Women",
+            "productDescription": "Et sint tempor commodo eiusmod. Ullamco exercitation ut laborum.",
+            "productName": "CactiDance"
+        },
+        {
+            "id": 42,
+            "productPrice": 966,
+            "productCategory": "Books",
+            "productDescription": "Voluptate voluptate sunt id excepteur. Dolor dolore est.",
+            "productName": "Coffee Dreamtime"
+        },
+        {
+            "id": 43,
+            "productPrice": 1008,
+            "productCategory": "Men",
+            "productDescription": "Sunt eu eu officia. Tempor veniam sunt proident.",
+            "productName": "Nuclear Winter Mint"
+        },
+        {
+            "id": 44,
+            "productPrice": 1268,
+            "productCategory": "Home",
+            "productDescription": "Elit ad adipisicing ex. Est amet dolore ipsum duis.",
+            "productName": "OCTAPAN – Open Console Technology Application for Performance Area Network"
+        },
+        {
+            "id": 45,
+            "productPrice": 557,
+            "productCategory": "Grocery",
+            "productDescription": "Adipisicing minim commodo id tempor. Dolore qui ea elit.",
+            "productName": "Bowels and Whistles"
+        },
+        {
+            "id": 46,
+            "productPrice": 453,
+            "productCategory": "Home",
+            "productDescription": "Veniam cillum nulla esse. Dolor tempor ea eu aliquip.",
+            "productName": "Arise and Shinola"
+        },
+        {
+            "id": 47,
+            "productPrice": 362,
+            "productCategory": "Accessories",
+            "productDescription": "Proident ex est nostrud. Fugiat labore excepteur.",
+            "productName": "Coffee Dreamtime"
+        },
+        {
+            "id": 48,
+            "productPrice": 323,
+            "productCategory": "Men",
+            "productDescription": "Et et laborum irure. Cillum sunt tempor aliqua.",
+            "productName": "Nurture Cream"
+        },
+        {
+            "id": 49,
+            "productPrice": 541,
+            "productCategory": "Men",
+            "productDescription": "Anim est dolor. Tempor cupidatat nostrud nulla.",
+            "productName": "Nutri-Taco"
+        },
+        {
+            "id": 50,
+            "productPrice": 605,
+            "productCategory": "Grocery",
+            "productDescription": "Exercitation irure enim dolor labore. Pariatur elit qui exercitation incididunt.",
+            "productName": "Citroën to the Boën"
+        }
+    ]
 }
